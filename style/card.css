@@ -1,0 +1,47 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.card .card-img {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card .card-img img {
+    width: 100%;
+    height: auto;
+    max-height: 300px;
+}
+
+.card .card-body {
+    text-align: center;
+    margin-top: auto;
+}
+
+.cobertura_title {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.cobertura_title h2 {
+    background-color: rgb(160, 157, 157);
+    font-family: 'Righteous';
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+    border-radius: 10px;
+
+}
+
+.cartas_cobertura {
+    display: none;
+}
+
+.coti_selected{
+    border: solid red;
+}
